@@ -80,6 +80,9 @@
                                         <state key="normal" title="Calculate">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="calculateButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IXT-HX-aOX"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -126,6 +129,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomBorderLabel" destination="wI5-6c-LTE" id="fpc-H1-yyH"/>
+                        <outlet property="frameHeightTextField" destination="v4w-Iv-REZ" id="LG4-Fb-HAF"/>
+                        <outlet property="frameWidthTextField" destination="ZIt-mz-IaE" id="A1P-53-0CY"/>
+                        <outlet property="imageHeightTextField" destination="IhR-RE-Ojv" id="mj1-db-mmm"/>
+                        <outlet property="imageWidthTextField" destination="95Y-Eb-kv2" id="Uof-zK-xyu"/>
+                        <outlet property="leftBorderLabel" destination="1MA-w9-Ef3" id="552-cO-JZn"/>
+                        <outlet property="rightBorderLabel" destination="Xab-ti-nmn" id="H9H-In-EvS"/>
+                        <outlet property="topBorderLabel" destination="cnF-Og-0Sn" id="CDr-Cf-FBj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
