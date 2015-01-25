@@ -14,6 +14,8 @@
 		546391291A746FDB00619D24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546391281A746FDB00619D24 /* Images.xcassets */; };
 		5463912C1A746FDB00619D24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5463912A1A746FDB00619D24 /* LaunchScreen.xib */; };
 		546391381A746FDB00619D24 /* MatBorder_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546391371A746FDB00619D24 /* MatBorder_CalculatorTests.m */; };
+		546391421A74769D00619D24 /* dog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 546391411A74769D00619D24 /* dog2.jpg */; };
+		546391441A74774900619D24 /* germanShepherd-632x475.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 546391431A74774900619D24 /* germanShepherd-632x475.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		546391311A746FDB00619D24 /* MatBorder CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MatBorder CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		546391361A746FDB00619D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546391371A746FDB00619D24 /* MatBorder_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatBorder_CalculatorTests.m; sourceTree = "<group>"; };
+		546391411A74769D00619D24 /* dog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog2.jpg; sourceTree = "<group>"; };
+		546391431A74774900619D24 /* germanShepherd-632x475.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "germanShepherd-632x475.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		5463911A1A746FDA00619D24 /* MatBorder Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				546391411A74769D00619D24 /* dog2.jpg */,
+				546391431A74774900619D24 /* germanShepherd-632x475.jpg */,
 				5463911F1A746FDA00619D24 /* AppDelegate.h */,
 				546391201A746FDA00619D24 /* AppDelegate.m */,
 				546391221A746FDB00619D24 /* ViewController.h */,
@@ -199,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546391441A74774900619D24 /* germanShepherd-632x475.jpg in Resources */,
 				546391271A746FDB00619D24 /* Main.storyboard in Resources */,
 				5463912C1A746FDB00619D24 /* LaunchScreen.xib in Resources */,
 				546391291A746FDB00619D24 /* Images.xcassets in Resources */,
+				546391421A74769D00619D24 /* dog2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
