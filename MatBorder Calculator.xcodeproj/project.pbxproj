@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5463911E1A746FDA00619D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5463911D1A746FDA00619D24 /* main.m */; };
+		546391211A746FDA00619D24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546391201A746FDA00619D24 /* AppDelegate.m */; };
+		546391241A746FDB00619D24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546391231A746FDB00619D24 /* ViewController.m */; };
+		546391271A746FDB00619D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546391251A746FDB00619D24 /* Main.storyboard */; };
+		546391291A746FDB00619D24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546391281A746FDB00619D24 /* Images.xcassets */; };
+		5463912C1A746FDB00619D24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5463912A1A746FDB00619D24 /* LaunchScreen.xib */; };
+		546391381A746FDB00619D24 /* MatBorder_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 546391371A746FDB00619D24 /* MatBorder_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		546391321A746FDB00619D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546391101A746FDA00619D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546391171A746FDA00619D24;
+			remoteInfo = "MatBorder Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546391181A746FDA00619D24 /* MatBorder Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MatBorder Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5463911C1A746FDA00619D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5463911D1A746FDA00619D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5463911F1A746FDA00619D24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546391201A746FDA00619D24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		546391221A746FDB00619D24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		546391231A746FDB00619D24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		546391261A746FDB00619D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546391281A746FDB00619D24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5463912B1A746FDB00619D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		546391311A746FDB00619D24 /* MatBorder CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MatBorder CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		546391361A746FDB00619D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546391371A746FDB00619D24 /* MatBorder_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatBorder_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546391151A746FDA00619D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5463912E1A746FDB00619D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5463910F1A746FDA00619D24 = {
+			isa = PBXGroup;
+			children = (
+				5463911A1A746FDA00619D24 /* MatBorder Calculator */,
+				546391341A746FDB00619D24 /* MatBorder CalculatorTests */,
+				546391191A746FDA00619D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546391191A746FDA00619D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546391181A746FDA00619D24 /* MatBorder Calculator.app */,
+				546391311A746FDB00619D24 /* MatBorder CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5463911A1A746FDA00619D24 /* MatBorder Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5463911F1A746FDA00619D24 /* AppDelegate.h */,
+				546391201A746FDA00619D24 /* AppDelegate.m */,
+				546391221A746FDB00619D24 /* ViewController.h */,
+				546391231A746FDB00619D24 /* ViewController.m */,
+				546391251A746FDB00619D24 /* Main.storyboard */,
+				546391281A746FDB00619D24 /* Images.xcassets */,
+				5463912A1A746FDB00619D24 /* LaunchScreen.xib */,
+				5463911B1A746FDA00619D24 /* Supporting Files */,
+			);
+			path = "MatBorder Calculator";
+			sourceTree = "<group>";
+		};
+		5463911B1A746FDA00619D24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5463911C1A746FDA00619D24 /* Info.plist */,
+				5463911D1A746FDA00619D24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		546391341A746FDB00619D24 /* MatBorder CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				546391371A746FDB00619D24 /* MatBorder_CalculatorTests.m */,
+				546391351A746FDB00619D24 /* Supporting Files */,
+			);
+			path = "MatBorder CalculatorTests";
+			sourceTree = "<group>";
+		};
+		546391351A746FDB00619D24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546391361A746FDB00619D24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546391171A746FDA00619D24 /* MatBorder Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5463913B1A746FDB00619D24 /* Build configuration list for PBXNativeTarget "MatBorder Calculator" */;
+			buildPhases = (
+				546391141A746FDA00619D24 /* Sources */,
+				546391151A746FDA00619D24 /* Frameworks */,
+				546391161A746FDA00619D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MatBorder Calculator";
+			productName = "MatBorder Calculator";
+			productReference = 546391181A746FDA00619D24 /* MatBorder Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546391301A746FDB00619D24 /* MatBorder CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5463913E1A746FDB00619D24 /* Build configuration list for PBXNativeTarget "MatBorder CalculatorTests" */;
+			buildPhases = (
+				5463912D1A746FDB00619D24 /* Sources */,
+				5463912E1A746FDB00619D24 /* Frameworks */,
+				5463912F1A746FDB00619D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546391331A746FDB00619D24 /* PBXTargetDependency */,
+			);
+			name = "MatBorder CalculatorTests";
+			productName = "MatBorder CalculatorTests";
+			productReference = 546391311A746FDB00619D24 /* MatBorder CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546391101A746FDA00619D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Darrell Nicholas";
+				TargetAttributes = {
+					546391171A746FDA00619D24 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					546391301A746FDB00619D24 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 546391171A746FDA00619D24;
+					};
+				};
+			};
+			buildConfigurationList = 546391131A746FDA00619D24 /* Build configuration list for PBXProject "MatBorder Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5463910F1A746FDA00619D24;
+			productRefGroup = 546391191A746FDA00619D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546391171A746FDA00619D24 /* MatBorder Calculator */,
+				546391301A746FDB00619D24 /* MatBorder CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546391161A746FDA00619D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546391271A746FDB00619D24 /* Main.storyboard in Resources */,
+				5463912C1A746FDB00619D24 /* LaunchScreen.xib in Resources */,
+				546391291A746FDB00619D24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5463912F1A746FDB00619D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546391141A746FDA00619D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546391241A746FDB00619D24 /* ViewController.m in Sources */,
+				546391211A746FDA00619D24 /* AppDelegate.m in Sources */,
+				5463911E1A746FDA00619D24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5463912D1A746FDB00619D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546391381A746FDB00619D24 /* MatBorder_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		546391331A746FDB00619D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546391171A746FDA00619D24 /* MatBorder Calculator */;
+			targetProxy = 546391321A746FDB00619D24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		546391251A746FDB00619D24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546391261A746FDB00619D24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5463912A1A746FDB00619D24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5463912B1A746FDB00619D24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546391391A746FDB00619D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5463913A1A746FDB00619D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5463913C1A746FDB00619D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MatBorder Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5463913D1A746FDB00619D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MatBorder Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5463913F1A746FDB00619D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MatBorder CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatBorder Calculator.app/MatBorder Calculator";
+			};
+			name = Debug;
+		};
+		546391401A746FDB00619D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MatBorder CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatBorder Calculator.app/MatBorder Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546391131A746FDA00619D24 /* Build configuration list for PBXProject "MatBorder Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546391391A746FDB00619D24 /* Debug */,
+				5463913A1A746FDB00619D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5463913B1A746FDB00619D24 /* Build configuration list for PBXNativeTarget "MatBorder Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5463913C1A746FDB00619D24 /* Debug */,
+				5463913D1A746FDB00619D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5463913E1A746FDB00619D24 /* Build configuration list for PBXNativeTarget "MatBorder CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5463913F1A746FDB00619D24 /* Debug */,
+				546391401A746FDB00619D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 546391101A746FDA00619D24 /* Project object */;
+}
