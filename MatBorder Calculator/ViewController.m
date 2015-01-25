@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MatBorder.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *frameWidthTextField;
@@ -27,14 +28,58 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.frameWidthTextField.delegate = self;
+    self.frameHeightTextField.delegate = self;
+    self.imageWidthTextField.delegate = self;
+    self.imageHeightTextField.delegate = self;
+}
+
+- (void)dealloc {
+    // unset the delegates because the textField delegate uses assign, not necessary if it uses weak reference
+    // this is how it is defined in the header: @property(nonatomic, assign) id<UITextFieldDelegate> delegate
+    NSLog(@"dealloc");
+    self.frameHeightTextField.delegate = nil;
+    self.frameHeightTextField.delegate = nil;
+    self.imageWidthTextField.delegate = nil;
+    self.imageHeightTextField.delegate = nil;
 }
 
 - (IBAction)calculateButtonPressed:(UIButton *)sender {
-    NSLog(@"Calculate!");
+    [self calculate];
+    [self hideKeyboard];
+}
+
+- (void)calculate {
     
-    NSLog(@"Frame: %@ x %@", self.frameWidthTextField.text, self.frameHeightTextField.text);
-    NSLog(@"Image: %@ x %@", self.imageWidthTextField.text, self.imageHeightTextField.text);
+    MatBorder *matBorder = [[MatBorder alloc] init];
+    
+    // Get User Input
+    matBorder.frameWidth    = [self.frameWidthTextField.text doubleValue];
+    matBorder.frameHeight   = [self.frameHeightTextField.text doubleValue];
+    matBorder.imageWidth    = [self.imageWidthTextField.text doubleValue];
+    matBorder.imageHeight   = [self.imageHeightTextField.text doubleValue];
+    
+    // calculate the borders from the input
+    [matBorder calculateBorders];
+
+    // Update UI
+    self.topBorderLabel.text = [@(matBorder.topBorderWidth) stringValue];
+    self.leftBorderLabel.text = [@(matBorder.leftBorderWidth) stringValue];
+    self.rightBorderLabel.text = [@(matBorder.rightBorderWidth) stringValue];
+    self.bottomBorderLabel.text = [@(matBorder.bottomBorderWidth) stringValue];
+}
+
+- (void)hideKeyboard {
+    [self.view endEditing:NO];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    [self calculate];
+    [self hideKeyboard];
+    
+    return YES;
 }
 
 @end
